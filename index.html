@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="who-made-it">made by notmuchwby, 2021</p>
+
+    <p class="title">My Library</p>
+
+    <form>
+        <label>
+            <span>Book Title:</span>
+            <input id="book-title" type="text"/>
+        </label>
+        <label>
+            <span>Book's author:</span>
+            <input id="book-author" type="text" />
+        </label>
+        <label>
+            <span>Number of pages:</span>
+            <input id="num-pages" type="text" />
+        </label>
+        <label id="check-book">
+            <span>Did you read the book?</span>
+            <input id="read-or-not" type="checkbox">
+        </label>
+    </form>
+    
+    <div id="submit-button-div">
+        <button id="submit-button" onclick="clickButton()">Submit</button>
+    </div>
+
+    <div id="library-shelves"></div>
+</body>
+<script src="script.js"></script>
+</html>

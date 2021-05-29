@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(248, 230, 213)
+}
+
+.title {
+    display: grid;
+    justify-content: center;
+    padding: 0.5em;
+    font-size: 2.5em;
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(243, 203, 70);
+    text-shadow: 2px 2px black;
+}
+
+.form-library {
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+
+label
+{
+    display: block;
+}
+
+label span
+{
+    display: inline-block;
+    text-align: right;
+    width: 180px;
+    padding-right: 8px;
+}
+
+span {
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    color:rgb(51, 51, 51)
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 20px;
+    margin-right: 100px;
+}
+
+input {
+    background:rgb(230, 230, 230)
+}
+
+#submit-button-div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 14px;
+  }
+
+#submit-button {
+    font-size: 14px;
+    padding: 6px 20px;
+    border: 2px solid rgb(27, 27, 27);
+    background:rgb(228, 227, 227);
+    border-radius: 8%;
+}
+
+#submit-button:hover  {
+    border: 2px solid rgb(112, 112, 112);
+    cursor: pointer;
+}
+  
+
+input[type=text] {
+    padding: 6px 16px;
+    margin: 1px 0;
+    box-sizing: border-box;
+  }
+
+#one-book { 
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 35px;
+    border: 2px solid rgb(27, 27, 27);
+    border-radius: 5%;
+    background:rgb(228, 227, 227);
+    line-height: 160%;
+}
+
+
+#library-shelves {
+    display: flex;
+}
+
+#buttons {
+    padding-top: 25px;
+    display: grid;
+    grid-gap: 6px;
+    background:rgb(228, 227, 227);
+}
+
+#two-buttons {
+    font-size: 17px;
+    padding: 6px 20px;
+    padding-bottom: 20px;
+    border: 2px solid rgb(27, 27, 27);
+    background:rgba(226, 192, 128, 0.233);
+    border-radius: 8%;
+}
+
+#two-buttons:hover {
+    border: 2px solid rgb(122, 122, 122);
+    cursor: pointer;
+}
+
+#p-form, #book-status {
+    font-family: 'Concert One', cursive;
+    font-size: 20px;
+    background:rgb(228, 227, 227);
+    
+}
+
+button {
+    font-family: 'Concert One', cursive;
+}
+
+#submit-button {
+    padding-bottom: 13px;
+    font-size: 17px;
+}
+
+#who-made-it {
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 12px;
+}
