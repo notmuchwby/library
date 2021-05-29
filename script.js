@@ -78,7 +78,8 @@ function showBooks() {
 
         btn.addEventListener('click', function() {
             myLibrary.splice(index, 1);
-            oneBook.parentElement.removeChild(oneBook);
+            shelves.textContent = "";
+            showBooks();
         });
 
         buttons.appendChild(btn);
